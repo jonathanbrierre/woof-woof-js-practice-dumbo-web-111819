@@ -47,13 +47,4 @@ fetch('http://localhost:3000/pups')
         })
     })
 
-goodDogFilter.addEventListener('click', e=>{
-    const filterToggle = goodDogFilter.querySelector('span')
-    if(filterToggle.textContent === 'OFF'){
-
-    } else {
-        filterToggle.textContent = 'OFF'
-    }
-    
-})
 
